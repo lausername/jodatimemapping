@@ -13,10 +13,10 @@ class TestDomSpec extends Specification implements DomainUnitTest<TestDom> {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect: "fix me"
+    void "test joda time property on persistentEntity"() {
+        expect: "Joda property found on persistent entity"
         domain.properties != null
         PersistentEntity persistentEntity = Holders.grailsApplication.mappingContext.getPersistentEntity(domain.class.getName())
-        persistentEntity.getPropertyByName('localDate')
+        persistentEntity.getPropertyByName('localDate') != null
     }
 }
