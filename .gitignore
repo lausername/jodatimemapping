@@ -1,0 +1,15 @@
+/.idea/
+*.iml
+/out/
+/target/
+.project
+.classpath
+logs
+/plugin.xml
+.slcache
+/devDb.trace.db
+/devDb.lock.db
+/devDb.h2.db
+/build
+/.gradle
+.asscache
