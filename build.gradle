@@ -28,6 +28,7 @@ apply plugin:"org.grails.grails-gsp"
 
 repositories {
     mavenLocal()
+
     maven { url "https://repo.maven.apache.org/maven2/" }
 }
 
@@ -53,7 +54,7 @@ dependencies {
     compile "org.hibernate:hibernate-core:5.1.5.Final"
     compile "org.grails.plugins:gsp"
     compile "org.jadira.usertype:usertype.core:5.0.0.GA"
-    compile 'org.grails.plugins:joda-time:2.0.0'
+    compile 'org.grails.plugins:joda-time:2.1.0.RC1'
     console "org.grails:grails-console"
     profile "org.grails.profiles:web"
     runtime "org.glassfish.web:el-impl:2.1.2-b03"

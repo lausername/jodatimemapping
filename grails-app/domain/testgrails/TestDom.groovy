@@ -1,6 +1,7 @@
 package testgrails
 
-import org.jadira.usertype.dateandtime.joda.PersistentDateTime
+
+import org.jadira.usertype.dateandtime.joda.PersistentLocalDate
 import org.joda.time.LocalDate
 
 class TestDom {
@@ -14,6 +15,6 @@ class TestDom {
 
     static mapping = {
         test nullable: true, size: 1..17
-        localDate type: PersistentDateTime
+        localDate type: PersistentLocalDate
     }
 }
