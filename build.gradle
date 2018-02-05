@@ -2,7 +2,7 @@ buildscript {
     repositories {
         mavenLocal()
 
-        maven { url "https://repo.maven.apache.org/maven2/" }
+        maven { url "https://repo.grails.org/grails/core" }
     }
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
@@ -29,7 +29,7 @@ apply plugin:"org.grails.grails-gsp"
 repositories {
     mavenLocal()
 
-    maven { url "https://repo.maven.apache.org/maven2/" }
+    maven { url "https://repo.grails.org/grails/core" }
 }
 
 dependencies {
